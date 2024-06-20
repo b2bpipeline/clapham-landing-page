@@ -9,10 +9,11 @@ module.exports = {
       white: "#FFFFFF",
       blue: "#025985",
       grey: "#AAADB1",
+      red: "#AF2F2F",
       "light-grey": "#F6F7F8",
     },
     fontFamily: {
-      manrope: ["Manrope", "sans-serif"],
+      quicksand: ["Quicksand", "sans-serif"],
     },
   },
   plugins: [],

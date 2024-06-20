@@ -12,34 +12,38 @@
   }
 
   .btn-blue {
-    @apply flex w-fit items-center justify-center bg-blue px-[16px] py-[12px] font-manrope font-semibold text-white;
+    @apply font-quicksand flex w-fit items-center justify-center bg-blue px-[16px] py-[12px] font-semibold text-white;
   }
 
   .btn-green {
-    @apply flex w-fit items-center justify-center gap-[8px] bg-green px-[16px] py-[12px] font-manrope font-semibold text-white;
+    @apply font-quicksand flex w-fit items-center justify-center gap-[8px] bg-green px-[16px] py-[12px] font-semibold text-white;
+  }
+
+  .btn-red {
+    @apply font-quicksand bg-red flex w-fit items-center justify-center px-[16px] py-[12px] font-semibold text-white;
   }
 
   .font-12 {
-    @apply font-manrope text-[12px] text-black;
+    @apply font-quicksand text-[12px] text-black;
   }
 
   .font-14 {
-    @apply font-manrope text-[14px] text-black;
+    @apply font-quicksand text-[14px] text-black;
   }
 
   .font-16 {
-    @apply font-manrope text-[16px] text-black xl:text-[20px];
+    @apply font-quicksand text-[16px] text-black xl:text-[20px];
   }
 
   .font-20 {
-    @apply font-manrope text-[20px] text-black xl:text-[24px];
+    @apply font-quicksand text-[20px] text-black xl:text-[24px];
   }
 
   .font-28 {
-    @apply font-manrope text-[28px] leading-tight text-black xl:text-[48px];
+    @apply font-quicksand text-[28px] leading-tight text-black xl:text-[48px];
   }
 
   .font-36 {
-    @apply font-manrope text-[36px] leading-tight text-black xl:text-[56px];
+    @apply font-quicksand text-[36px] leading-tight text-black xl:text-[56px];
   }
 }
